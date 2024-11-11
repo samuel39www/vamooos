@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    background-color: #ffe4e1;
+    color: #a52a2a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción */
+    margin-right: 15px; /* Espaciado entre la imagen y el título */
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff69b4;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff0f5;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Estilos para el título */
+h1, h2 {
+    color: #ff69b4;
+}
+
+p {
+    font-size: 1.2em;
+    color: #d87093;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #d87093;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los miembros del equipo */
+.miembro {
+    background-color: #fff0f5; /* Fondo blanco rosado */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.miembro h3 {
+    margin: 0;
+    color: #ff69b4;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+}
+
+.redes li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #ff69b4;
+}
